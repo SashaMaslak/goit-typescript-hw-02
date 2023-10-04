@@ -14,12 +14,5 @@ enum Day {
 }
 
 function isWeekend(day: Day): boolean {
-  if (day === "weekend") {
-    return true
-  } else {
-    return false
-  }
+  return day === "weekend"
 }
-
-isWeekend(Day.monday)
-isWeekend(Day.sunday)
